@@ -1,0 +1,9 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:No85bK04oy
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?icterraquantum.com/.*$      [NC]
+RewriteRule .*\.(.*|jpg|jpeg|gif|png|bmp|tiff|avi|mpeg|mpg|wma|mov|zip|rar|exe|mp3|pdf|swf|psd|txt|html|htm|php)$ https://icterraquantum.com/ [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE No85bK04oy:HOTLINKID
+
+
+
